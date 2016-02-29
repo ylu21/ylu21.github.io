@@ -1,0 +1,143 @@
+<?php 
+  //1764823
+?>
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="/">Dreamer's mind</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/">Home</a></li>
+        <li><a href="/#portfolio">Portfolio</a></li>
+        <li><a href="/#about">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="bg-post text-center">
+  <h1 class="title">Dandy Study</h1>
+  <img src="uploads/dandyspace/d4.png" class="img-responsive">
+  <section id="inspiration" class="container-fluid info">
+  <h3>Inspiration</h3>
+  <span class="glyphicon glyphicon-leaf"></span>
+  <p class="text-muted">The primary motivation for Dandy Study  
+  is how crowded the prime studying locations here at the University of Rochester can get, 
+  especially around finals week. We figured we all have better things to do than to waste 
+  our time manually checking locations for space. Does Gleason library have space right now? 
+  How packed is each level of the Stacks? There's never been a solution to these questions, 
+  until Dandy Study.. 
+ </p>
+    
+  </section>
+  <h3>Demonstration</h3>
+  <span class="glyphicon glyphicon-eye-open"></span>
+  <div class="embed-responsive embed-responsive-16by9">
+                            <iframe  class="embed-responsive-item" src="https://player.vimeo.com/video/148061075"></iframe>
+  </div>
+  
+   <section id="presentation" class="text-center container-fluid bg-4">
+    <h3>Screenshot</h3>
+    <span class="glyphicon glyphicon-camera"></span>
+    <br>
+    <div class="row">
+      <div class="col-sm-4 col-md-4">
+       <img src="uploads/dandyspace/d1.png" class="img-responsive">
+      </div>
+      <div class="col-sm-4 col-md-4">
+       <img src="uploads/dandyspace/d2.png" class="img-responsive">
+      </div>
+      <div class="col-sm-4 col-md-4">
+       <img src="uploads/dandyspace/d3.png" class="img-responsive">
+      </div>
+    </div>
+  </section>
+  
+  <section id="audience" class="container-fluid bg-3 font-inv info">
+    <h3>Audience</h3>
+    <span class="glyphicon glyphicon-user"></span>
+    <p>
+    Our users are college students of University of Rochester. With further consideration, user range can expand to all college students in US.  
+    </p></section>
+  
+  <section id="role" class="container-fluid info">
+     <h3>Role</h3>
+  <span class="glyphicon glyphicon-grain"></span>
+  <p class="text-muted">
+    I was in charge of developing the mobile android platform for scanning the barcode and displaying library map on the device. In addition, I was also assigned to construct the database after one teammate was unavailable due to personal issue. Since time was limited, we used existing template for layout. 
+    </p>
+  </section>
+ 
+  <section id="implementation" class="container-fluid bg-3 bg-info font-inv">
+  <h3>Implementation</h3>
+  <br>
+  <div class="row">
+    <div class="infocol col-sm-4 col-md-4">
+      <h4>Script</h4>
+      <span class="glyphicon glyphicon-file"></span>
+      <p>HTML CSS</p>
+      <p class="important">nodeJS, mongoDB</p><p>express, AngularJS</p>
+      <p class="important">Android SDK</p>
+      
+    </div>
+    <div class="infocol col-sm-4 col-md-4">
+      <h4>Framework</h4>
+      <span class="glyphicon glyphicon-glass"></span>
+      <p>
+        Bootstraps was implemented for its flexibility and popularity in front-end design
+        </p>
+    </div>
+    <div class="infocol col-sm-4 col-md-4">
+      <h4>Contributor</h4>
+      <span class="glyphicon glyphicon-user"></span>
+      <p>Jackson Ding (Team Captain)</p>
+      <p>Tom Craw</p>
+    </div>
+  </div>
+  </section>
+  
+  <section id="impact" class="container-fluid info">
+    <h3>Impact</h3>
+    <span class="glyphicon glyphicon-record"></span>
+    <p class="text-muted">This web application was an academic class project, no field-test was scheduled. Potential influence would be allowing students to reserve desk and monitor library occupancy. </p>
+  </section>
+  <section id="furtherdev" class="container-fluid bg-3 font-inv info">
+    <h3>Futher Development</h3>
+  <p>As a basic academic group project, this site is discontinued (Click <a class="text-muted" href="https://github.com/ylu21/project">here</a> for source code). 
+  </p>
+  </section> 
+  
+  
+</div>
+ 
+
+
+<footer class="container-fluid bg-4 text-center">
+  <p>Dreamer's mind</p>
+  Theme by Yichen Lu <span class="glyphicon glyphicon-copyright-mark"></span> 2016
+  <p>
+    <a href="http://github.com/ylu21"><img src="https://www.michaelfogleman.com/static/img/social/github.png"></a>
+  </p>
+</footer>
+  </body>
+</html>
